@@ -8,7 +8,6 @@ body{
     background-image: url("images/bg-pattern-top-desktop.svg"), url("images/bg-pattern-bottom-desktop.svg");
     background-repeat: no-repeat, no-repeat;
     background-position: left top, right bottom;
-    background-size: 40%, 1000px;
     font-family: 'League Spartan', sans-serif;
 }
 
@@ -137,18 +136,13 @@ p.tag{
 
 
 
-    /*MOBILE DESIGN FOR MAX-WIDTH: 375PX*/
-    @media screen and (max-width: 375px) {
+    /*MOBILE DESIGN FOR MAX-WIDTH: 425PX*/
+    @media screen and (max-width: 425px) {
 
         body{
             background-image: url("images/bg-pattern-top-mobile.svg"), url("images/bg-pattern-bottom-mobile.svg");
             background-repeat: no-repeat, no-repeat;
             background-size: 95%, 5%;
-            height: 600px;
-        }
-
-        .container_div{
-            margin-right: 20%;
         }
 
         .first_flex{
@@ -203,9 +197,11 @@ p.tag{
         }
 
         .review_div{
+            height: auto;
             flex: none;
             display: block;
             margin-left: 5px;
+            margin-bottom: 30px;
         }
 
         .reviews{
